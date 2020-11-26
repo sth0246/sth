@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <img src="333.jpg" alt="" id="img">
+    <button onclick="changeImg()">下一张</button>
+    <button onclick="next()">上一张</button>
+
+</body>
+<script>
+    var num = 0;
+    var img = document.getElementById("img");
+    var array = ['111.jpg', '222.jpg', '333.jpg','444.jpg'];
+
+    function changeImg() {
+        
+        img.src = array[num];
+        num++;
+        if (num == array.length) num = 0;
+
+    }
+    setInterval("changeImg()", 1000)
+    function next() {
+        img.src = array[num];
+        num--;
+        if (num ==-1)   num = array.length-1;
+
+    }
+</script>
+
+</html>
