@@ -1,0 +1,189 @@
+*{
+    margin: auto;
+}
+.header{
+    height: 55px;
+    width: 1920px;
+    background-color: #090723;
+    margin: auto;
+}
+.left{
+    float: left;
+    background-color: #090723;
+    height: 55px;
+    width: 375px;
+}
+.right{
+    float: right;
+    background-color: #090723;
+    height: 55px;
+    width: 375px;
+}
+
+.logo{
+    float: left;
+    height: 55px;
+    width: 125px;
+    background-color: #090723;
+    text-align: center;
+}
+.nav{
+    float: left;
+    height: 55px;
+    margin-left: 10px;
+
+}
+li{
+    float: left;
+    list-style: none;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff80;
+    padding-top: 17px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 17px;
+}
+a:hover{
+    color: #ffffff;
+}
+.ima{
+    background-image: url(images/new.jpg);
+}
+.search{
+    float: left;
+    height: 55px;
+    width: 160px;
+    margin-left: 100px;
+   
+}
+.search input{
+    float: left;
+    height: 27px;
+    width: 108px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    border:1px #ffffff80 ;
+    border-right:none;
+    color: #ffffff80;
+}
+button{
+    float: left;
+    height: 29px;
+    width: 34px;
+    background: url(images/Snipaste_2020-11-01_00-34-19.jpg);
+    margin-top: 13px;
+    margin-bottom: 13px;
+    
+}
+.qwe{
+    float: left;
+    height: 55px;
+    width: 241px;
+    background: url(images/hhh.jpg);
+}
+.main{
+    height: 620px;
+    width: 1910px;
+    background-color: #090723;
+}
+h2{
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+
+}
+.gnjs{
+    position: absolute;
+    left: 435px;
+    top: 400px;
+    height: 192px;
+    width: 184px;
+    color: #090723;
+    background-image: url(images/gnjs.jpg);
+}
+.gnjs:hover,.gnjs:active{
+    background-image: url(images/gnjs1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.tbhz{
+    position: absolute;
+    left: 649px;
+    top: 400px;
+    height: 192px;
+    width: 184px;
+    color: #090723;
+    background-image: url(images/tbhz.jpg);
+}
+.tbhz:hover,.tbhz:active{
+    background-image: url(images/tbhz1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}.dmyy{
+    position: absolute;
+    left: 863px;
+    top: 400px;
+    height: 192px;
+    width: 184px;
+    color: #090723;
+    background-image: url(images/dmyy.jpg);
+}
+.dmyy:hover,.dmyy:active{
+    background-image: url(images/dmyy1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}.xgwz{
+    position: absolute;
+    left: 1077px;
+    top: 400px;
+    height: 192px;
+    width: 184px;
+    color: #090723;
+    background-image: url(images/xgwz.jpg);
+}
+.xgwz:hover,.xgwz:active{
+    background-image: url(images/xgwz1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}.gywm{
+    position: absolute;
+    left: 1291px;
+    top: 400px;
+    height: 192px;
+    width: 184px;
+    color: #090723;
+    background-image: url(images/gywm.jpg);
+}
+.gywm:hover,.gywm:active{
+    background-image: url(images/gywm1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.view {
+    width: 1910px;
+    height: 893px;
+    background-image: url(images/main.jpg);
+}
+.view2{
+    width: 1910px;
+    width: 908px;
+    background-image: url(images/main2.jpg);
+}
+.view3{
+    width: 1910px;
+    height: 570px;
+    background-image: url(images/main3.jpg);
+}
+.back{
+    float: inline-end;
+    position: relative;
+    left: 630px;
+    top: 125px;
+    width: 50px;
+    height: 50px;
+  
+}
