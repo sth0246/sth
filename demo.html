@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            height: 78px;
+        }
+        .nav ul li{
+            display: block;
+            float: left;
+            list-style: none;
+            color: blanchedalmond;
+            padding: 10px 10px;
+            cursor: pointer;
+        }
+        .nav ul li:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav ul li dd{
+            display: none;
+            position: absolute;
+        }
+        .nav ul li:hover dd{
+            display: block;
+            background-color: teal;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>针不戳
+                <dd>
+                    <dl>针不戳</dl>
+                    <dl>针不戳</dl>
+                    <dl>针不戳</dl>
+                    <dl>针不戳</dl>
+                </dd>
+            </li>
+            <li>针不戳</li>
+            <li>针不戳</li>
+            <li>针不戳</li>
+            <li>针不戳</li>
+            <li>针不戳</li>
+        </ul>
+    </div>
+    <img src="images/111.jpg" alt="" id="img">
+</body>
+<script>
+    var num = 0;
+    var img = document.getElementById("img")
+    var array = ['images/111.jpg', 'images/222.jpg', 'images/444.jpg', 'images/333.jpg', 'images/555.jpg'];
+    function changeImg(){
+        img.src = array[num];
+        num++;    
+        if(num == array.length)
+        num = 0;
+    }
+setInterval("changeImg()",1000)
+</script>
+</html>
